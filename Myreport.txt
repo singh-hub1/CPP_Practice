@@ -1,0 +1,9 @@
+ NAME            AVERAGE   GRADE
+----------------------------------------
+Vishal            90.00      A
+
+Jyoti             71.67      C
+
+Arya              65.00      D
+
+Swati             65.00      D
