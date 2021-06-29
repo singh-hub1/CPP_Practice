@@ -27,7 +27,6 @@ Complex operator-();
 Complex Complex :: operator-()
 {
     Complex temp;
-    // temp.a=-(this->a);
     temp.a=-(this->a);
     temp.b=-(this->b);
     return temp;
