@@ -1,46 +1,46 @@
-#include<iostream>
-#include<iostream>
+#include <iostream>
+#include <iostream>
 using namespace std;
 class employee
 {
-    private:
+private:
     int code;
     string name;
     string address;
-    public:
+
+public:
     void get_data()
     {
-       cout<<"Enter employee code::"<<endl;
-       cin>>code;
-       cout<<"Enter employee name::"<<endl;
-       cin>>name;
-       cout<<"Enter employee address::"<<endl;
-       cin>>address;
-
+        cout << "Enter employee code::" << endl;
+        cin >> code;
+        cout << "Enter employee name::" << endl;
+        cin >> name;
+        cout << "Enter employee address::" << endl;
+        cin >> address;
     }
     void display()
     {
-        cout<<"Employee code ::"<<code<<endl;
-        cout<<"Employee name ::"<<name<<endl;
-        cout<<"Employee address ::"<<address<<endl;
+        cout << "Employee code ::" << code << endl;
+        cout << "Employee name ::" << name << endl;
+        cout << "Employee address ::" << address << endl;
     }
-
 };
+
 int main()
 {
     employee e1[10];
     int n;
-    cout<<"enter how many numbers u want"<<endl;
-    cin>>n;
-    for(int i=0;i<n;i++)
+    cout << "enter how many numbers u want" << endl;
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
         e1[i].get_data();
     }
-    cout<<"*********************************************************************************"<<endl;
-    cout<<"Employee details are as follows"<<endl;
-    for(int i=0;i<n;i++)
+    cout << "*********************************************************************************" << endl;
+    cout << "Employee details are as follows" << endl;
+    for (int i = 0; i < n; i++)
     {
         e1[i].display();
     }
-return 0;
+    return 0;
 }
