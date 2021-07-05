@@ -56,7 +56,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        ptr1->getData();
+        (ptr1+i)->getData();
         cout << endl;
     }
     cout << "*****************************************************" << endl;
@@ -65,7 +65,7 @@ int main()
     
     for (int i = 0; i < n; i++)
     {
-        ptr1->displayData();
+        (ptr1+i)->displayData();
     }
 
     // cout << "Destructor called :: " << endl;
