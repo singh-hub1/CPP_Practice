@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "html": "",
+        "php": "",
+        "string": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
